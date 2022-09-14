@@ -14,7 +14,7 @@
         follow: yes
         owner: root
         group: syslog
-        mode: 0775
+        mode: '775'
         state: directory
 
     - name: Configure standard log files
